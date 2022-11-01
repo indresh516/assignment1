@@ -1,0 +1,11 @@
+print("1.Admin\n2.Customer")
+ch=int(input("Enter your choice  :  "))
+if ch==1:
+  print("1.Login\n2.Signup")
+  ch1=int(input("Enter your choice   :   "))
+  user_name=input("Enter the User Id  :    ")
+  user_pass=input("Enter the Password  :   ")
+  if user_name=='isit'and user_pass=='12345':
+    print("You are login successfull, welcome Indresh,")
+  else:
+    print("Wronge ID or Pass please check and try again")
